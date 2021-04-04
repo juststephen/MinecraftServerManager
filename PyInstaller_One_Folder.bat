@@ -1,0 +1,2 @@
+pyinstaller --onedir MC_Main.py --icon="DefaultIcon.ico" --name "Minecraft Server Manager" --add-data "DefaultIcon.ico;." --hiddenimport win32timezone --noconsole --distpath "ABSOLUTE_PATH_TO_YOUR_END_RESULT_FOLDER"
+pass
