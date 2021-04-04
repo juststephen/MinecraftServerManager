@@ -3,7 +3,7 @@ Minecraft Server Manager written in Python for Minecraft servers running on linu
 
 ## How to build .exe
 1. Install the requirements as stated in `requirements.txt`.
-2. Use PyInstaller with the command in PyInstaller_One_Folder.bat where ABSOLUTE_PATH_TO_YOUR_END_RESULT_FOLDER is the absolute path to your folder where the end result will show up.
+2. Use PyInstaller with the command in `PyInstaller_One_Folder.bat` where `ABSOLUTE_PATH_TO_YOUR_END_RESULT_FOLDER` is the absolute path to your folder where the end result will show up.
 3. <b>Run the resulting .exe once and edit the `settings.json` before proceeding.</b>
 
     - `remote_dir` is the remote directory of the Minecraft server
