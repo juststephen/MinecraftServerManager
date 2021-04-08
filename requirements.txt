@@ -1,12 +1,3 @@
-### Python packages to install ###
-Ignoring Python packages included in Python itself
-
 asyncssh
 Pillow
 pyinstaller
-
-
-### How to install ####
-(Change PACKAGE_NAME into the name of the package):
-
-pip install PACKAGE_NAME
