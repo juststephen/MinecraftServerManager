@@ -99,7 +99,7 @@ async def StopStartServer(StopStart, conn):
     """
     if StopStart == 'Start':
         # Start server
-        await conn.run('screen -dmS Minecraft bash -c \"/home/mc/Minecraft/start.sh\"')
+        await conn.run(f'screen -dmS Minecraft bash -c \"{remote_dir}/start.sh\"')
         if Progress_Text is not None:
             Progress_Text['text'] = 'Starting Server...'
             Progress_Text.update()
